@@ -19,18 +19,3 @@ Class: frog |	CAM IoU: 0.313	|	SEG IoU: 0.684	|	SEG_hor IoU: 0.625	|	SEG_ver IoU
 Class: horse |	CAM IoU: 0.196	|	SEG IoU: 0.538	|	SEG_hor IoU: 0.497	|	SEG_ver IoU: 0.451	|	SEG_rot IoU: 0.560
 Class: ship |	CAM IoU: 0.280	|	SEG IoU: 0.635	|	SEG_hor IoU: 0.495	|	SEG_ver IoU: 0.411	|	SEG_rot IoU: 0.448
 Class: truck |	CAM IoU: 0.204	|	SEG IoU: 0.746	|	SEG_hor IoU: 0.647	|	SEG_ver IoU: 0.657	|	SEG_rot IoU: 0.606
-
-
-
-Intersection over union is a common evaluation metric for object detection and semantic segmentation of images. It defines what proportion of the predicted output aligns up with the ground truth mask.
-
-Let A be the ground truth mask and B be the predicted output mask for a segmentation task. The area where A and B overlap is the intersection ( A  B ) and the total area covered by A and B is the union (A U B). IoU is calculated by applying the formula: ( A  B )  / (A U B). This denotes the proportion of intersection with respect to the union.
-
-
-
-
-
-
-
-
-COMP 6490 great source learn Document Analysis
