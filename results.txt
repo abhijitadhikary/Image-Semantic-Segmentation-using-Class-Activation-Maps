@@ -1,0 +1,36 @@
+Test Accuracy
+
+CAM						0.877
+SEG						0.875
+SEG_HOR_FLIP			0.821
+SEG_VER_FLIP			0.781
+SEG_ROTATION			0.806
+
+
+IOU
+
+Class: plane |	CAM IoU: 0.238	|	SEG IoU: 0.553	|	SEG_hor IoU: 0.394	|	SEG_ver IoU: 0.438	|	SEG_rot IoU: 0.292
+Class: car |	CAM IoU: 0.240	|	SEG IoU: 0.576	|	SEG_hor IoU: 0.449	|	SEG_ver IoU: 0.422	|	SEG_rot IoU: 0.533
+Class: bird |	CAM IoU: 0.456	|	SEG IoU: 0.295	|	SEG_hor IoU: 0.385	|	SEG_ver IoU: 0.316	|	SEG_rot IoU: 0.459
+Class: cat |	CAM IoU: 0.156	|	SEG IoU: 0.591	|	SEG_hor IoU: 0.757	|	SEG_ver IoU: 0.748	|	SEG_rot IoU: 0.759
+Class: deer |	CAM IoU: 0.145	|	SEG IoU: 0.333	|	SEG_hor IoU: 0.230	|	SEG_ver IoU: 0.221	|	SEG_rot IoU: 0.227
+Class: dog |	CAM IoU: 0.123	|	SEG IoU: 0.520	|	SEG_hor IoU: 0.415	|	SEG_ver IoU: 0.449	|	SEG_rot IoU: 0.676
+Class: frog |	CAM IoU: 0.313	|	SEG IoU: 0.684	|	SEG_hor IoU: 0.625	|	SEG_ver IoU: 0.665	|	SEG_rot IoU: 0.663
+Class: horse |	CAM IoU: 0.196	|	SEG IoU: 0.538	|	SEG_hor IoU: 0.497	|	SEG_ver IoU: 0.451	|	SEG_rot IoU: 0.560
+Class: ship |	CAM IoU: 0.280	|	SEG IoU: 0.635	|	SEG_hor IoU: 0.495	|	SEG_ver IoU: 0.411	|	SEG_rot IoU: 0.448
+Class: truck |	CAM IoU: 0.204	|	SEG IoU: 0.746	|	SEG_hor IoU: 0.647	|	SEG_ver IoU: 0.657	|	SEG_rot IoU: 0.606
+
+
+
+Intersection over union is a common evaluation metric for object detection and semantic segmentation of images. It defines what proportion of the predicted output aligns up with the ground truth mask.
+
+Let A be the ground truth mask and B be the predicted output mask for a segmentation task. The area where A and B overlap is the intersection ( A  B ) and the total area covered by A and B is the union (A U B). IoU is calculated by applying the formula: ( A  B )  / (A U B). This denotes the proportion of intersection with respect to the union.
+
+
+
+
+
+
+
+
+COMP 6490 great source learn Document Analysis
